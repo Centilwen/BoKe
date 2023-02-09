@@ -29,6 +29,27 @@
             line-height: 193.51%;
             letter-spacing: 0.03em;
             color: #000000;
+            margin-left: 12px;
+        }
+
+        .选择 {
+            width: 90px;
+            height: 40px;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 193.51%;
+            letter-spacing: 0.03em;
+            color: #000000;
+            margin-left: 12px;
+        }
+
+        .搜索栏 {
+            width: 250px;
+            height: 40px;
+            margin: 0 auto;
+            background: #F0F0F0;
+            box-shadow: 0px 0px 0px 1px #DBDBDB;
+            border-radius: 12px;
         }
 
         /*  */
@@ -42,7 +63,15 @@
 
 <body>
     <div id="侧边栏">
-        <div class="搜索"> <a class="搜索">搜索</a> </div>
+        <div class="搜索"> <a class="搜索">搜索：</a> </div>
+        <div class="搜索栏">
+            <input id="搜索栏-输入栏" type="text"><button></button>
+            <div id="清除"></div>
+        </div>
+        <div class="选择"> <a class="选择">选择：</a> </div>
+        <div id="推荐框"><a class="推荐">推荐</a></div>
+        <div id="精选框"><a class="精选">精选</a></div>
+        <div id="动态框"><a class="动态">动态</a></div>
     </div>
     <div id="主页面"></div>
 </body>
